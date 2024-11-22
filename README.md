@@ -1,1 +1,1 @@
-## This my configuration files or `linux` and `windows` system
+## This my configuration files of `linux` and `windows` system
