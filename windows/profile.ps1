@@ -12,6 +12,6 @@ Set-PSReadLineOption -PredictionSource History
 # Set-PSReadLineOption -PredictionViewStyle ListView
 Set-PSReadLineKeyHandler -Chord 'Ctrl+d' -Function DeleteChar
 
-# utils function
-function ll {eza -l --icons $args} # check-out https://github.com/eza-community/eza
+# utile function
+function ls {eza -l --icons $args} # check-out https://github.com/eza-community/eza
 function whereis ($command) {(Get-Command -Name $command -ErrorAction SilentlyContinue).Path}
