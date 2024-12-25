@@ -72,7 +72,7 @@ after go in `WhiteSur-gtk-theme` directory
 I am gonna run the script file with options. if you want your according, check help `./install --help`.
 
 ```bash
-./install.sh -a normal -m -N mojave -l --round -t all -c Dark
+./install.sh -a normal -m -N stable -l --round -t all -c Dark
 ```
 
 Then execute this script to start installing all the things we need. Once it’s done, it’s time to run the tweaks script as a root.
@@ -96,3 +96,21 @@ Then, install the `“Compiz Magic Lamp Effect”` extension which will give a G
 Next, search for `“blur”` and install `“Blur My Shell”` to blur the Gnome shell.
 
 Finally, install the `“Gnome 4X UI Improvements”` extension, which makes the Gnome shell faster and more minimal.
+
+### Removing
+
+```bash
+sudo dnf remove sassc libsass dialog
+# Postman
+sudo cp -r ~/.config/Postman/proxy ~/.var/app/com.getpostman.Postman/config/Postman/proxy
+```
+
+### DNS Config
+
+```text
+IPV4
+8.8.8.8,8.8.4.4
+
+IPV6
+2001:4860:4860::8888,2001:4860:4860::8844
+```

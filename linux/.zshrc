@@ -1,5 +1,5 @@
 # Print name on terminal
-figlet Joker | lolcat
+figlet Joker Dev | lolcat
 
 # ===== PATH Configuration =====
 export PATH="$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH"
@@ -9,7 +9,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # ZSH_THEME="none"
 
 # Load Oh My Posh theme for Zsh with the Catppuccin Latte theme
-eval "$(oh-my-posh init zsh --config ~/.cache/oh-my-posh/themes/catppuccin_latte.omp.json)"
+eval "$(oh-my-posh init zsh --config ~/.cache/oh-my-posh/themes/kali.omp.json)"
 
 # ===== Plugins =====
 plugins=(
