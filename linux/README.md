@@ -114,3 +114,9 @@ IPV4
 IPV6
 2001:4860:4860::8888,2001:4860:4860::8844
 ```
+
+### Fix Incorrect Windows Time In Linux Dual Boot
+```text
+timedatectl
+timedatectl set-local-rtc 1 --adjust-system-clock
+```
