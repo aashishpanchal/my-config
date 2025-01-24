@@ -29,6 +29,7 @@ alias del='rm -r'                         # Remove files/folders
 alias cls='clear'                         # Clear terminal
 alias reload='source ~/.zshrc'            # Reload Zsh config
 alias ls='eza -la --icons --group-directories-first' # Enhanced 'ls' using eza
+alias bat="batcat"
 
 # ===== Java Development Kit =====
 export JAVA_HOME=/opt/openjdk/jdk-17.0.13+11
