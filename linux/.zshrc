@@ -2,7 +2,7 @@
 export PATH="$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH"
 # ===== Oh My Zsh Configuration =====
 export ZSH="$HOME/.oh-my-zsh"
-# ZSH_THEME="none"
+# ZSH_THEME="xiong-chiamiov-plus"
 # Load Oh My Posh theme for Zsh with the Catppuccin Latte theme
 eval "$(oh-my-posh init zsh --config ~/.cache/oh-my-posh/themes/kali.omp.json)"
 # ===== Plugins =====
@@ -23,7 +23,7 @@ alias reload='source ~/.zshrc'            # Reload Zsh config
 alias ls='eza -la --icons --group-directories-first' # Enhanced 'ls' using eza
 alias bat="batcat"
 # path sorter
-eval "$(zoxide init bash)"
+eval "$(zoxide init zsh)"
 alias cd="z"
 # Android SDK Configuration
 export ANDROID_HOME=$HOME/Android/Sdk
