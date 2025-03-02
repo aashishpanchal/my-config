@@ -4,7 +4,7 @@ alias g='git'
 alias cls='clear'
 alias del='rm -r'
 alias reload='source ~/.bashrc'
-alias ls='eza -la --icons --group-directories-first' # Enhanced 'ls' using eza
+alias ls='eza -a --icons --group-directories-first' # Enhanced 'ls' using eza
 alias bat="batcat"
 # path sorter
 eval "$(zoxide init bash)"

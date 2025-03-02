@@ -20,7 +20,7 @@ alias g='git'                             # Shortcut for git
 alias del='rm -r'                         # Remove files/folders
 alias cls='clear'                         # Clear terminal
 alias reload='source ~/.zshrc'            # Reload Zsh config
-alias ls='eza -la --icons --group-directories-first' # Enhanced 'ls' using eza
+alias ls='eza -a --icons --group-directories-first' # Enhanced 'ls' using eza
 alias bat="batcat"
 # path sorter
 eval "$(zoxide init zsh)"
