@@ -9,7 +9,7 @@ alias bat="batcat"
 # path sorter
 eval "$(zoxide init bash)"
 # Load Oh My Posh theme, https://github.com/jandedobbeleer/oh-my-posh
-eval "$(oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/catppuccin_mocha.omp.json)"
+eval "$(oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/kali.omp.json)"
 # Android SDK Configuration
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/emulator

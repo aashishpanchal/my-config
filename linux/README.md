@@ -116,7 +116,17 @@ IPV6
 ```
 
 ### Fix Incorrect Windows Time In Linux Dual Boot
+
 ```text
 timedatectl
 timedatectl set-local-rtc 1 --adjust-system-clock
+```
+
+### Install `Bibata-cursor-theme`
+
+```bash
+# for ubuntu
+sudo apt install bibata-cursor-theme
+# for fedora
+sudo dnf install bibata-cursor-theme
 ```
