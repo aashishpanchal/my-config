@@ -1,0 +1,16 @@
+# theme = Atom
+# theme = One Dark
+theme = Aura
+font-family = JetBrainsMono NF
+font-size = 13
+font-style = bold
+# cmux config
+# sidebar-font-size = 14
+# surface-tab-bar-font-size = 11
+# cursor config
+shell-integration-features = no-cursor, sudo, no-title
+cursor-style = block
+# background
+background-opacity = 0.9
+background-blur = 20
+macos-titlebar-style = tabs
