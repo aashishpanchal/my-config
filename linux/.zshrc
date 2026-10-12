@@ -10,7 +10,10 @@ plugins=(
     git                    # Git commands and aliases
     zsh-autosuggestions    # git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
     zsh-syntax-highlighting # git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-)
+# Initialize Oh My Posh
+if [ -x "$(command -v oh-my-posh)" ]; then
+  eval "$(oh-my-posh init zsh --config /home/aashish/.cache/oh-my-posh/themes/catppuccin_frappe.omp.json)"
+fi
 # Source Oh My Zsh for loading configuration and plugins
 source $ZSH/oh-my-zsh.sh
 # ===== Shortcuts & Aliases =====
